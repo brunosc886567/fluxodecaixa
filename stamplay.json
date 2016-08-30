@@ -1,0 +1,10 @@
+{
+  "appId": "fluxodecaixa",
+  "apiKey": "39065c038edd029216eb34ffb23607171f0fdf3c2ae40b5cdcf6a72ac87c4086",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
