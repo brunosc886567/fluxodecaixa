@@ -46,15 +46,15 @@
 		form.ui-mini .ui-field-contain fieldset.ui-controlgroup legend small {
 			color: #666;
 		}
+		
 	</style>
 </head>
 <body>
-<div data-role="page" id="testpage">
-
+<div data-role="page">
 	<div data-role="header">
 		<h1>Fluxo de caixa</h1>
-		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
-		<a href="#popupLogin" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-user ui-btn-icon-left ui-btn-a" data-transition="pop">Login</a>
+		<!--<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>-->
+		<a href="#popupLogin" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-user ui-btn-icon-left ui-btn-a" data-transition="pop" style="float:right">Login</a>
 	
 	<div data-role="popup" id="popupLogin" data-theme="a" class="ui-corner-all">
 	    <form  action="login.html">
@@ -70,9 +70,10 @@
 	</div>
 		
 	</div><!-- /header -->
+	<div role="main" class="ui-content">...</div>
+	<div data-role="footer"  data-position="fixed" align="center">by Juliano</div>
+</div>
 
-	
-</div><!-- /page -->
 
 </body>
 </html>
