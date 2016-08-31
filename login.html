@@ -111,7 +111,7 @@ ul#menu li:hover ul{
 	            </ul>
             </li>
 			<li><a href="#">Despesar Fixas</a></li>
-			<li><a href="#">Despesas variaveis</a></li>
+			<li><a href="#" id="lnkDespesas">Despesas variaveis</a></li>
 		</ul>
 		
 	</div>
@@ -145,6 +145,20 @@ $(function(){
    $("#btnReceitas").click(function(){
    		$("#subMenuReceitas").show();
    });
+
+
+   $("#lnkDespesas").click(function(){
+
+   	$.ajax({
+   		url:"despesas.html",
+   		dataType:"html"
+
+   	}).done(function(data){
+		$("#ui-body-test2").html(data);				
+   		
+   	})
+   		
+   })
 });
 
 
